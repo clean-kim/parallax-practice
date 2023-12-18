@@ -23,6 +23,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1;
   height: 200vh;
@@ -42,6 +45,10 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+a {
+  color: unset;
+  text-decoration: unset;
 }
 
 header {
@@ -79,5 +86,43 @@ header {
 
 #main-image {
   min-width: 1000px;
+}
+
+#document-title {
+  margin-bottom: 40px;
+  color: #BBE1EE;
+  font-size: 170%;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+#main-content-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mountain-tag-wrapper {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 50px;
+}
+
+.mountain-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mountain-content-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+  height: 32px;
+  background-color: #BBE1EE;
+  color: #04120C;
 }
 
